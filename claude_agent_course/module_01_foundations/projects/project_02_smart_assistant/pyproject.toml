@@ -1,7 +1,7 @@
 [project]
-name = "hello-agent"
+name = "smart-assistant"
 version = "0.1.0"
-description = "你的第一个 Claude Agent"
+description = "智能对话助手 - 支持多模式和对话管理"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

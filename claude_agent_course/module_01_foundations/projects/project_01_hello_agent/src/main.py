@@ -1,49 +1,60 @@
 """
 Hello Agent - 主程序
 
-这是项目的主程序入口文件。
-
 Author: Your Name
 Date: 2024-01-04
 """
 
 import sys
 import os
+import asyncio
+from dotenv import load_dotenv
+from agent import FileAgent
 
+load_dotenv()
 
-def show_environment():
-    """显示环境信息"""
-    # TODO: 实现显示 Python 版本和当前目录
-    pass
-
-
-def main():
+# TODO: 1. 将 main 函数改为 async
+async def main():
     """主函数"""
     print("=" * 60)
-    print("Hello Agent - 文件查看助手")
+    print("🤖 Hello Agent - 文件查看助手")
     print("=" * 60)
 
-    # TODO: 1. 显示环境信息
-    # show_environment()
+    try:
+        agent = FileAgent()
+        print("✅ Agent 已启动\n")
+    except ValueError as e:
+        print(e)
+        return
 
-    # TODO: 2. 创建 FileAgent 实例
-
-    # TODO: 3. 实现交互循环
-    print("\n命令:")
-    print("  ls    - 列出当前目录文件")
-    print("  stat  - 统计文件类型")
-    print("  exit  - 退出程序")
-    print("=" * 60)
-
+    # 交互循环
     while True:
-        user_input = input("\n你: ").strip()
+        try:
+            user_input = input("\n💬 你: ").strip()
 
-        if user_input.lower() in ['exit', 'quit', '退出']:
-            print("\n再见！👋")
+            if not user_input:
+                continue
+
+            if user_input.lower() in ['exit', 'quit']:
+                print("\n👋 再见！")
+                break
+
+            if user_input.lower() in ['ls', 'list']:
+                print("\n🔍 正在分析文件...")
+                # TODO: 2. 使用 async for 循环获取流式输出
+                # async for chunk in agent.describe_files():
+                #     print(chunk, end="", flush=True)
+                pass
+                
+            # ... 其他命令 ...
+
+        except KeyboardInterrupt:
+            print("\n\n👋 检测到 Ctrl+C，退出程序")
             break
-
-        # TODO: 处理用户命令
-
+        except Exception as e:
+            print(f"\n❌ 错误: {e}")
 
 if __name__ == "__main__":
-    main()
+    # TODO: 3. 使用 asyncio.run 运行主函数
+    # asyncio.run(main())
+    pass

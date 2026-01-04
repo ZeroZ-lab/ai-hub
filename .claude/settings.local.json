@@ -3,7 +3,11 @@
     "allow": [
       "Bash(tree:*)",
       "Bash(ls:*)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(wc:*)",
+      "Bash(uv run:*)",
+      "Bash(uv sync)",
+      "Bash(PYTHONPATH=solution uv run python:*)"
     ]
   }
 }
