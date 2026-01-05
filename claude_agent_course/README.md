@@ -13,15 +13,17 @@
 ### 🛠️ Phase 2: 连接 (Connection) - 工具与协议
 *   **[Module 3: 自定义工具](./module_03_custom_tools/)**
     *   学习 Function Calling，封装自己的 Agent SDK。
-*   **[Module 4: MCP 协议](./module_04_mcp_protocol/)**
+*   **[Module 4: Agent Skills](./module_04_skills/)**
+    *   通过 Skills 为 Agent 注入专业知识和工作流程。
+*   **[Module 5: MCP 协议](./module_05_mcp_protocol/)**
     *   Model Context Protocol 深度解析与数据库连接实战。
 
 ### 🧠 Phase 3: 智慧 (Intelligence) - 复杂工作流
-*   **[Module 5: 记忆与长上下文](./module_05_memory_context/)**
+*   **[Module 6: 记忆与长上下文](./module_06_memory_context/)**
     *   Session 管理、Prompt Caching 与向量记忆。
-*   **[Module 6: 规划与编排](./module_06_planning_orchestration/)**
+*   **[Module 7: 规划与编排](./module_07_planning_orchestration/)**
     *   思维链 (CoT)、ReAct 模式与人机回环 (Human-in-the-loop)。
 
 ### 🚀 Phase 4: 飞升 (Ascension) - 综合大项目
-*   **[Module 7: Capstone Project](./module_07_capstone_project/)**
+*   **[Module 8: Capstone Project](./module_08_capstone_project/)**
     *   构建全栈研发助手 "DevMate"。

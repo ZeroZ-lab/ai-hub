@@ -29,17 +29,17 @@
 - 💻 运行第一个 Hello World
 - 📁 **项目**: Hello Agent、智能对话助手
 
-#### [Module 2: 基础工具](claude_agent_course/module_02_core_tools/) 🚧 待开发
+#### [Module 2: 基础工具](claude_agent_course/module_02_core_tools/) ✅ 进行中
 - 📂 文件系统操作
 - 💻 Bash 命令执行
 - 🌐 Web 工具（搜索、抓取）
-- 📁 **项目**: 日志整理器、环境检查员、每日早报 Bot
+- 📁 **项目**: 文件分析器、Bash 自动化助手
 
 ---
 
 ### Phase 2: 连接 (Connection) - 工具与协议
 
-#### [Module 3: 自定义工具](claude_agent_course/module_03_custom_tools/) 🚧 待开发
+#### [Module 3: 自定义工具](claude_agent_course/module_03_custom_tools/) ✅ 进行中
 - ⚙️ Function Calling 原理
 - 📊 结构化输出
 - 🔧 自定义工具开发

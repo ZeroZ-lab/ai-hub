@@ -1,0 +1,37 @@
+张三
+================================
+
+联系方式
+--------
+邮箱: zhangsan@example.com
+电话: 13800138000
+地址: 北京市朝阳区
+
+工作经验
+--------
+2019-至今  ABC科技有限公司 - 高级软件工程师
+- 负责后端服务开发，使用 Python 和 Django
+- 参与微服务架构设计，使用 Docker 和 Kubernetes
+- 优化数据库性能，PostgreSQL 和 Redis
+
+2016-2019  XYZ互联网公司 - 软件工程师
+- 前端开发，使用 React 和 JavaScript
+- 参与敏捷开发流程
+- 配合 Git 工作流
+
+技能
+----
+编程语言: Python, JavaScript, Go
+框架: Django, Flask, React, Vue
+数据库: PostgreSQL, MongoDB, Redis
+工具: Docker, Kubernetes, AWS, Git
+其他: Linux, Agile, Scrum
+
+教育背景
+--------
+2012-2016  北京大学 - 计算机科学与技术 本科
+
+证书
+----
+- AWS Certified Solutions Architect
+- Python 高级开发工程师认证

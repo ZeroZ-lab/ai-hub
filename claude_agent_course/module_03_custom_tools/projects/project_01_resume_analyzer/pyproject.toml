@@ -1,0 +1,16 @@
+[project]
+name = "resume-analyzer"
+version = "0.1.0"
+description = "Module 3 Project: Resume Analyzer using Custom Tools"
+requires-python = ">=3.10"
+dependencies = [
+    "claude-agent-sdk>=0.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
