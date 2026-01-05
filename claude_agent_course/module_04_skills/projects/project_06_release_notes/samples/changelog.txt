@@ -1,0 +1,7 @@
+Release 1.4.0 (2024-06-30)
+- Added: Support exporting invoices to CSV
+- Added: New admin dashboard widgets
+- Changed: Default export now excludes cancelled invoices
+- Fixed: Pagination bug in invoices list
+- Fixed: Error when exporting empty dataset
+- Breaking: Removed legacy /v1/invoices endpoint

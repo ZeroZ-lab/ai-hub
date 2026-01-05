@@ -26,6 +26,12 @@
 
 ### 实战项目 (projects/)
 1. [project_01_code_reviewer](projects/project_01_code_reviewer/) - 创建代码审查 Skill
+2. [project_02_meeting_notes_summarizer](projects/project_02_meeting_notes_summarizer/) - 会议纪要总结 Skill
+3. [project_03_requirement_summary](projects/project_03_requirement_summary/) - 需求摘要 Skill
+4. [project_04_pr_description_generator](projects/project_04_pr_description_generator/) - PR 描述生成 Skill
+5. [project_05_test_checklist](projects/project_05_test_checklist/) - 测试清单 Skill
+6. [project_06_release_notes](projects/project_06_release_notes/) - 发布说明 Skill
+7. [project_07_log_redactor](projects/project_07_log_redactor/) - 日志脱敏 Skill（包含 scripts）
 
 ## ⏱️ 预计学习时间
 

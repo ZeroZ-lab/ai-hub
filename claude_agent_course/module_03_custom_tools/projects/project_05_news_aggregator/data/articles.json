@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "AI Chips Drive Record Earnings",
+    "source": "TechWire",
+    "category": "technology",
+    "published_at": "2024-06-12",
+    "summary": "Chipmakers report record results as data-center demand accelerates.",
+    "url": "https://example.com/ai-chips"
+  },
+  {
+    "id": 2,
+    "title": "Energy Storage Prices Fall",
+    "source": "GridToday",
+    "category": "energy",
+    "published_at": "2024-06-11",
+    "summary": "New battery manufacturing capacity pushes storage prices lower.",
+    "url": "https://example.com/energy-storage"
+  },
+  {
+    "id": 3,
+    "title": "Startup Raises Series B",
+    "source": "VentureDaily",
+    "category": "business",
+    "published_at": "2024-06-10",
+    "summary": "A logistics startup closes a $60M Series B to expand operations.",
+    "url": "https://example.com/series-b"
+  },
+  {
+    "id": 4,
+    "title": "Research Group Releases LLM Efficiency Benchmark",
+    "source": "ModelWatch",
+    "category": "technology",
+    "published_at": "2024-06-09",
+    "summary": "A new benchmark compares inference efficiency across leading models.",
+    "url": "https://example.com/llm-benchmark"
+  },
+  {
+    "id": 5,
+    "title": "Healthcare Providers Adopt AI Scheduling",
+    "source": "HealthBrief",
+    "category": "health",
+    "published_at": "2024-06-08",
+    "summary": "Clinics roll out AI scheduling to reduce patient wait times.",
+    "url": "https://example.com/ai-scheduling"
+  },
+  {
+    "id": 6,
+    "title": "Major Bank Launches Instant Payments",
+    "source": "FinanceWire",
+    "category": "finance",
+    "published_at": "2024-06-07",
+    "summary": "Instant payments expand to new regions after regulatory approval.",
+    "url": "https://example.com/instant-payments"
+  }
+]

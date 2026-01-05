@@ -8,7 +8,11 @@
       "Bash(uv run:*)",
       "Bash(uv sync)",
       "Bash(PYTHONPATH=solution uv run python:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:claude.com)"
     ]
   }
 }

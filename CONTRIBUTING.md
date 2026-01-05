@@ -176,9 +176,10 @@ touch solution/main.py
 [project]
 name = "project-name"
 version = "0.1.0"
+description = "项目描述"
 requires-python = ">=3.10"
 dependencies = [
-    "anthropic>=0.18.1",
+    "claude-agent-sdk>=0.1.0",
     "python-dotenv>=1.0.0",
 ]
 
@@ -188,7 +189,18 @@ dev = [
     "black>=23.12.1",
     "ruff>=0.1.9",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# 重要：必须指定 src 目录，否则 uv run 会失败
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
 ```
+
+> ⚠️ **注意**: `[tool.hatch.build.targets.wheel]` 配置是必须的！
+> 否则运行 `uv run` 时会报错 `Unable to determine which files to ship inside the wheel`
 
 ### 常用命令
 
