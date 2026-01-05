@@ -12,7 +12,10 @@
       "WebSearch",
       "WebFetch(domain:docs.anthropic.com)",
       "WebFetch(domain:www.anthropic.com)",
-      "WebFetch(domain:claude.com)"
+      "WebFetch(domain:claude.com)",
+      "Bash(cat:*)",
+      "Bash(test:*)",
+      "Bash(python3:*)"
     ]
   }
 }
