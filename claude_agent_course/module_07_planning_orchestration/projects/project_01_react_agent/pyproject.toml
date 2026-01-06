@@ -1,0 +1,12 @@
+[project]
+name = "react-agent"
+version = "0.1.0"
+description = "Project 1: 从零实现 ReAct Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.30.0",
+    "python-dotenv",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
